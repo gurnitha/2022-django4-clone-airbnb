@@ -15,3 +15,14 @@ CLONE AIRBNB MENGGUNAKAN DJANGO VERSI 4
         new file:   config/urls.py
         new file:   config/wsgi.py
         new file:   manage.py
+
+
+### 2. SETUP DATABASE
+---------------------
+
+#### 2.1 Setting up database menggunakan Postgres
+
+        modified:   README.md
+        modified:   config/settings.py
+
+
