@@ -5,7 +5,7 @@ from django.db import models
 from django_countries.fields import CountryField
 
 # Locals
-# from django.contrib.auth.models import AbstractUser
+from app.users.models import MyCustomUser
 
 # Create your models here.
 
@@ -19,7 +19,7 @@ class RoomType(models.Model):
 
 
 	class Meta:
-		verbose_name = "Room Type"
+		verbose_name_plural = "Room types"
 
 	def __str__(self):
 		return self.name
@@ -34,7 +34,7 @@ class Amenity(models.Model):
 
 
 	class Meta:
-		verbose_name = "Amenities"
+		verbose_name_plural = "Amenities"
 
 	def __str__(self):
 		return self.name
@@ -49,7 +49,7 @@ class Facility(models.Model):
 
 
 	class Meta:
-		verbose_name = "Facilities"
+		verbose_name_plural = "Facilities"
 
 	def __str__(self):
 		return self.name
@@ -64,7 +64,7 @@ class HouseRule(models.Model):
 
 
 	class Meta:
-		verbose_name = "House Rule"
+		verbose_name_plural = "House rules"
 
 	def __str__(self):
 		return self.name
@@ -86,7 +86,7 @@ class Room(models.Model):
 	check_in = models.TimeField()
 	check_out = models.TimeField()
 	instant_book = models.BooleanField(default=False)
-	# host = models.ForeignKey(MyCustomUser, on_delete=models.CASCADE)
+	host = models.ForeignKey(MyCustomUser, on_delete=models.CASCADE)
 	room_type = models.ForeignKey(RoomType, on_delete=models.SET_NULL, null=True)
 	amenities = models.ManyToManyField(Amenity, blank=True)
 	facilities = models.ManyToManyField(Facility, blank=True)
@@ -95,7 +95,7 @@ class Room(models.Model):
 	updated = models.DateTimeField(auto_now=True)
 
 	class Meta:
-		verbose_name = "Rooms"
+		verbose_name_plural = "Rooms"
 
 	def __str__(self):
 		return self.name
@@ -111,7 +111,7 @@ class Photo(models.Model):
 	updated = models.DateTimeField(auto_now=True)
 
 	class Meta:
-		verbose_name = "Photos"
+		verbose_name_plural = "Photos"
 
 	def __str__(self):
 		return self.caption

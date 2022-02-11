@@ -1,6 +1,8 @@
 # 2022-django4-clone-airbnb
 CLONE AIRBNB MENGGUNAKAN DJANGO VERSI 4
 
+Github repository: https://github.com/gurnitha/2022-django4-clone-airbnb
+
 
 ### 1. DJANGO PROJECT
 ---------------------
@@ -63,7 +65,17 @@ CLONE AIRBNB MENGGUNAKAN DJANGO VERSI 4
         new file:   app/users/views.py
         modified:   config/settings.py
 
+#### 4.2 Membuat model: MyCustomUser dan jalankan migrasi
 
+        modified:   README.md
+        new file:   app/rooms/migrations/0001_initial.py
+        new file:   app/rooms/migrations/0002_initial.py
+        new file:   app/rooms/migrations/0003_alter_amenity_options_alter_facility_options_and_more.py
+        modified:   app/rooms/models.py
+        modified:   app/users/admin.py
+        new file:   app/users/migrations/0001_initial.py
+        modified:   app/users/models.py
+        modified:   config/settings.py
 
 
 
