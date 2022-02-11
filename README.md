@@ -41,6 +41,12 @@ CLONE AIRBNB MENGGUNAKAN DJANGO VERSI 4
         new file:   app/rooms/views.py
         modified:   config/settings.py
 
+#### 3.2 Membuat models: RoomType, Amenity, Facility, HouseRule, Room, Photo 
+
+        modified:   README.md
+        modified:   app/rooms/admin.py
+        modified:   app/rooms/models.py
+
 
 
 
