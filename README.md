@@ -26,3 +26,22 @@ CLONE AIRBNB MENGGUNAKAN DJANGO VERSI 4
         modified:   config/settings.py
 
 
+### 3. MEMBUAT ROOMS APP
+------------------------
+
+#### 3.1 Create django app dengan nama 'apps/rooms'
+
+        modified:   README.md
+        new file:   app/rooms/__init__.py
+        new file:   app/rooms/admin.py
+        new file:   app/rooms/apps.py
+        new file:   app/rooms/migrations/__init__.py
+        new file:   app/rooms/models.py
+        new file:   app/rooms/tests.py
+        new file:   app/rooms/views.py
+        modified:   config/settings.py
+
+
+
+
+
