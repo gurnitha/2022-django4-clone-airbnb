@@ -38,6 +38,10 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
 
+    # New apps
+    'app.users.apps.UsersConfig',
+    'app.rooms.apps.RoomsConfig',
+
     # Default installed apps
     'django.contrib.admin',
     'django.contrib.auth',
@@ -46,8 +50,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    # New apps
-    'app.rooms.apps.RoomsConfig',
+
 ]
 
 MIDDLEWARE = [
