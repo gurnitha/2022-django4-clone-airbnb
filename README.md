@@ -78,4 +78,20 @@ Github repository: https://github.com/gurnitha/2022-django4-clone-airbnb
         modified:   config/settings.py
 
 
+### 5. MEMBUAT REVIEWS APP
+--------------------------
+
+#### 5.1 Create a new app 'app/reviews' dan  Review model
+
+        modified:   README.md
+        new file:   app/reviews/__init__.py
+        new file:   app/reviews/admin.py
+        new file:   app/reviews/apps.py
+        new file:   app/reviews/migrations/0001_initial.py
+        new file:   app/reviews/migrations/0002_alter_review_accuracy_alter_review_check_in_and_more.py
+        new file:   app/reviews/migrations/__init__.py
+        new file:   app/reviews/models.py
+        new file:   app/reviews/tests.py
+        new file:   app/reviews/views.py
+        modified:   config/settings.py
 

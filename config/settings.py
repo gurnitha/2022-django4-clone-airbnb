@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     # New apps
     'app.users.apps.UsersConfig',
     'app.rooms.apps.RoomsConfig',
+    'app.reviews.apps.ReviewsConfig',
 
     # Default installed apps
     'django.contrib.admin',
