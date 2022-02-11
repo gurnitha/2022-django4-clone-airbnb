@@ -95,3 +95,19 @@ Github repository: https://github.com/gurnitha/2022-django4-clone-airbnb
         new file:   app/reviews/views.py
         modified:   config/settings.py
 
+
+### 6. MEMBUAT RESERVATIONS APP
+-------------------------------
+
+#### 6.1 Create a new app 'app/reservations' dan Reservation model
+
+        modified:   README.md
+        new file:   app/reservations/__init__.py
+        new file:   app/reservations/admin.py
+        new file:   app/reservations/apps.py
+        new file:   app/reservations/migrations/0001_initial.py
+        new file:   app/reservations/migrations/__init__.py
+        new file:   app/reservations/models.py
+        new file:   app/reservations/tests.py
+        new file:   app/reservations/views.py
+        modified:   config/settings.py
