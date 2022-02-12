@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'app.reviews.apps.ReviewsConfig',
     'app.reservations.apps.ReservationsConfig',
     'app.lists.apps.ListsConfig',
+    'app.conversations.apps.ConversationsConfig',
 
     # Default installed apps
     'django.contrib.admin',

@@ -129,3 +129,19 @@ Github repository: https://github.com/gurnitha/2022-django4-clone-airbnb
         new file:   app/lists/tests.py
         new file:   app/lists/views.py
         modified:   config/settings.py
+
+
+### 8. MEMBUAT CONVERSATIONS APP
+--------------------------------
+
+#### 8.1 Create a new app 'app/conversations', Conversation model dan Message model
+
+        new file:   app/conversations/__init__.py
+        new file:   app/conversations/admin.py
+        new file:   app/conversations/apps.py
+        new file:   app/conversations/migrations/0001_initial.py
+        new file:   app/conversations/migrations/__init__.py
+        new file:   app/conversations/models.py
+        new file:   app/conversations/tests.py
+        new file:   app/conversations/views.py
+        modified:   config/settings.py
