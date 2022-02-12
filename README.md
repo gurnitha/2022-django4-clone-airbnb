@@ -111,3 +111,21 @@ Github repository: https://github.com/gurnitha/2022-django4-clone-airbnb
         new file:   app/reservations/tests.py
         new file:   app/reservations/views.py
         modified:   config/settings.py
+
+
+### 7. MEMBUAT LISTS APP
+------------------------
+
+#### 7.1 Create a new app 'app/lists' dan List model
+
+        modified:   README.md
+        new file:   app/lists/__init__.py
+        new file:   app/lists/admin.py
+        new file:   app/lists/apps.py
+        new file:   app/lists/migrations/0001_initial.py
+        new file:   app/lists/migrations/0002_remove_list_room_list_room.py
+        new file:   app/lists/migrations/__init__.py
+        new file:   app/lists/models.py
+        new file:   app/lists/tests.py
+        new file:   app/lists/views.py
+        modified:   config/settings.py
